@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <style>
+        .checklist-item::before {
+            content: '✓'; 
+            color: green; 
+            margin-right: 0.5rem; 
+        }
+       
+    </style>
+
+</head>
+
+
+
+
+<body class="font-poppins text-lg">
+
+
+
+    <div class="hero flex flex-col md:flex-row justify-between items-center py-12 px-4 md:px-12 max-w-6xl mx-auto font-sans">
+        <div class="hero-left flex-1 text-center md:text-left mb-8 md:mb-0">
+            <h1 class="text-3xl md:text-5xl mb-4 font-bold">Better Media Buying</h1>
+            <div class="text-xl md:text-3xl">Managing your ad campaigns is now much easier and safer.</div>
+        </div>
+        <div class="hero-right flex-1 text-center md:text-right hidden md:block">
+            <img src="img/Marketing consulting.gif" alt="Hero GIF" class="w-48 md:w-auto max-w-xl transform transition-transform duration-300 hover:scale-110 mx-auto">
+        </div>
+    </div>
+    
+    <div class="border-t border-gray-300 w-3/4 md:w-2/4 mx-auto"></div>
+    
+    <div class="flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-16">
+        <img src="img/um-logo.webp" alt="um" class="w-auto h-16 transform transition-transform duration-300 hover:scale-110 mb-8 md:mb-0">
+        <img src="img/Anadolu-logo.png" alt="aü" class="w-auto h-24 transform transition-transform duration-300 hover:scale-110">
+    </div>    
+
+    
+
+
+
+    <div class="border-t border-gray-300 w-2/4 mx-auto"></div>
+
+    <section id="features" class="py-24 px-4 text-center">
+
+        <h2 class="text-3xl mb-8 font-bold">How to Use</h2>
+
+        <div class="feature-list flex flex-wrap justify-center gap-8  bg-gray-50 p-8">
+
+
+            <div class="feature border p-6 rounded-lg max-w-xs transform transition-transform duration-300 hover:scale-105 w-full sm:w-1/2 md:w-1/3">
+                <lord-icon
+                    src="https://cdn.lordicon.com/omiqopzf.json"
+                    trigger="hover"
+                    style="width:100px;height:100px">
+                </lord-icon>
+                <h3 class="text-xl mb-4 font-bold">Set the Guideline</h3>
+                <p>Choose which platform you will run on, set guideline for users by editing the campaign's metrics.</p>
+            </div>
+
+
+    
+            <div class="feature border p-6 rounded-lg max-w-xs transform transition-transform duration-300 hover:scale-105 w-full sm:w-1/2 md:w-1/3">
+                <lord-icon
+                    src="https://cdn.lordicon.com/wkvacbiw.json"
+                    trigger="hover"
+                    style="width:100px;height:100px">
+                </lord-icon>
+                <h3 class="text-xl mb-4 font-bold">Create the Campaign</h3>
+                <p>Return to the platform (etc. Google Ads) and start creating the campaign.</p>
+            </div>
+
+
+    
+            <div class="feature border p-6 rounded-lg max-w-xs transform transition-transform duration-300 hover:scale-105 w-full sm:w-1/2 md:w-1/3">
+                <lord-icon
+                    src="https://cdn.lordicon.com/xljvqlng.json"
+                    trigger="hover"
+                    style="width:100px;height:100px">
+                </lord-icon>
+                <h3 class="text-xl mb-4 font-bold">Follow the Instructions</h3>
+                <p>If you do not comply with the campaign guideline, you will receive warnings. Adjust your campaign accordingly.</p>
+            </div>
+
+
+        
+        </div>
+    </section>
+ 
+    <div class="hero flex flex-col md:flex-row justify-between items-center px-4 md:px-12 max-w-6xl mx-auto font-sans mb-16">
+        <div class="hero-left flex-1 text-center md:text-left mb-8 md:mb-0">
+            <h2 class="text-2xl md:text-3xl mb-8 font-bold">What We Offer</h2>
+            <div class="checklist space-y-4 mt-4">
+                <div class="text-base md:text-l hero-left max-w-md mx-auto md:mx-0">
+                    Experience a streamlined and efficient ad campaign management platform designed to 
+                    maximize your success. With a focus on usability, error prevention, budget control, 
+                    and comprehensive analytics, you can ensure your campaigns run smoothly and achieve 
+                    outstanding results.
+                </div>
+                <div class="checklist-item text-base md:text-l font-bold">User-Friendly Interface</div>
+                <div class="checklist-item text-base md:text-l font-bold">Error Prevention System</div>
+                <div class="checklist-item text-base md:text-l font-bold">Budget Management</div>
+                <div class="checklist-item text-base md:text-l font-bold">Analytics and Reporting</div>
+            </div>        
+        </div>
+        <div class="hero-right flex-1 text-center md:text-right hidden md:block">
+            <img src="img/Version control.gif" alt="Version Control" class="max-w-xl transform transition-transform duration-300 hover:scale-110 mx-auto">
+        </div>
+    </div>
+    
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
